@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact list</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <main class="main">
+        <section class="contact-controller">
+            <div class="contact-controller__tools">
+                <h2 class="contact-controller__text">My contacts</h2>
+                <div class="contact-controller__actions">
+                    <i class="ph ph-plus contact-controller__icons"></i>
+                    <i class="ph ph-pencil-simple contact-controller__icons"></i>
+                    <i class="ph ph-trash contact-controller__icons"></i>
+                </div>
+            </div>
+            <form class="contact-controller__search">
+                <button class="contact-controller__btn">
+                    <i class="ph ph-magnifying-glass contact-controller__icons"></i>
+                </button>
+                <input type="text" 
+                        name="search-input" 
+                        id="search-input" 
+                        class="contact-controller__input"
+                        placeholder="Search for a name or contact datas...">
+            </form>
+        </section>
+
+        <section class="contact-list">
+            <span class="contact-list__letter contact-list__letter--A">A</span>
+            <div class="contact-list__group">
+                <div class="contact-list__avatar">
+                    <img src="./assets/img/person1.png" alt="person image" class="contact-list__image">
+                    <div class="contact-list__info">
+                        <p class="contact-list__name">Abraäo Sena</p>
+                        <span class="contact-list__number">(11) 90876-1234</span>
+                    </div>
+                </div>
+            </div>
+            <span class="contact-list__letter contact-list__letter--B">B</span>
+            <div class="contact-list__group">
+                <div class="contact-list__avatar">
+                    <img src="./assets/img/person2.png" alt="person image" class="contact-list__image">
+                    <div class="contact-list__info">
+                        <p class="contact-list__name">Beatriz Clasen</p>
+                        <span class="contact-list__number">(48) 90876-1123</span>
+                    </div>
+                </div>
+                <div class="contact-list__avatar">
+                    <img src="./assets/img/person3.png" alt="person image" class="contact-list__image">
+                    <div class="contact-list__info">
+                        <p class="contact-list__name">Brenda Mendes</p>
+                        <span class="contact-list__number">(21) 90876-8765</span>
+                    </div>
+                </div>
+            </div>
+            <span class="contact-list__letter contact-list__letter--C">C</span>
+            <div class="contact-list__group">
+                <div class="contact-list__avatar">
+                    <img src="./assets/img/person4.png" alt="person image" class="contact-list__image">
+                    <div class="contact-list__info">
+                        <p class="contact-list__name">Caio Vinícius</p>
+                        <span class="contact-list__number">(71) 90876-2435</span>
+                    </div>
+                </div>
+                <div class="contact-list__avatar">
+                    <img src="./assets/img/person5.png" alt="person image" class="contact-list__image">
+                    <div class="contact-list__info">
+                        <p class="contact-list__name">Cleiton Souza</p>
+                        <span class="contact-list__number">(11) 90876-1209</span>
+                    </div>
+                </div>
+            </div>
+            <span class="contact-list__letter contact-list__letter--D">D</span>
+            <div class="contact-list__group">
+                <div class="contact-list__avatar">
+                    <img src="./assets/img/person6.png" alt="person image" class="contact-list__image">
+                    <div class="contact-list__info">
+                        <p class="contact-list__name">Daniel Duarte</p>
+                        <span class="contact-list__number">(82) 90876-6534</span>
+                    </div>
+                </div>
+            </div>
+            <span class="contact-list__letter contact-list__letter--E">E</span>
+            <div class="contact-list__group">
+                <div class="contact-list__avatar">
+                    <img src="./assets/img/person7.png" alt="person image" class="contact-list__image">
+                    <div class="contact-list__info">
+                        <p class="contact-list__name">Daniel Duarte</p>
+                        <span class="contact-list__number">(82) 90876-6534</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
